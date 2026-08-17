@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="hy">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kids World</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Գլխավոր բաժին -->
+    <header>
+      <h1>🌈 Kids World</h1>
+
+      <p>Բարի գալուստ երեխաների հետաքրքիր աշխարհ։</p>
+
+      <nav>
+        <a href="#about">Մեր մասին</a>
+        <a href="#activities">Զբաղմունքներ</a>
+        <a href="#gallery">Պատկերասրահ</a>
+        <a href="#video">Տեսանյութ</a>
+        <a href="#contact">Կապ</a>
+      </nav>
+    </header>
+
+    <!-- Մեր մասին -->
+    <section id="about">
+      <h2>👋 Մեր մասին</h2>
+
+      <p>
+        Kids World-ը մի վայր է, որտեղ երեխաները կարող են սովորել, խաղալ և
+        բացահայտել նոր հետաքրքրություւններ։
+      </p>
+
+      <img
+        src="img/1920_kidsplayingsoccer.jpg"
+        alt="Երեխաներ խաղալիս"
+        width="400"
+      />
+    </section>
+
+    <!-- Զբաղմունքներ -->
+    <section id="activities">
+      <h2>⭐ Ի՞նչ կարող ենք անել</h2>
+
+      <ul>
+        <li>🎨 Նկարել</li>
+        <li>⚽ Սպորտով զբաղվել</li>
+        <li>🎮 Խաղալ</li>
+        <li>📚 Կարդալ</li>
+        <li>💻 Ծրագրավորել</li>
+      </ul>
+
+      <h3>Մեր սիրելի զբաղմունքների Top 3-ը</h3>
+
+      <ol>
+        <li>Ծրագրավորում</li>
+        <li>Խաղեր</li>
+        <li>Սպորտ</li>
+      </ol>
+    </section>
+
+    <!-- Պատկերասրահ -->
+    <section id="gallery">
+      <h2>📸 Պատկերասրահ</h2>
+
+      <img
+        src="img/Kids-Painting-party.jpg"
+        alt="Նկարելու գործընթաց"
+        width="250"
+      />
+
+      <img src="img/images.jpeg" alt="Սպորտով զբաղվող երեխաներ" width="250" />
+
+      <img
+        src="img/boy-codes-happily-stockcake.jpg"
+        alt="Երեխաները ծրագրավորում են"
+        width="250"
+      />
+    </section>
+
+    <!-- Տեսանյութ -->
+    <section id="video">
+      <h2>🎬 Դիտենք տեսանյութ</h2>
+
+      <video controls width="500">
+        <source src="kids-video.mp4" type="video/mp4" />
+
+        Ձեր բրաուզերը չի աջակցում video թեգը։
+      </video>
+    </section>
+
+    <!-- Աուդիո -->
+    <section>
+      <h2>🎵 Լսենք երաժշտություն</h2>
+
+      <audio controls>
+        <source src="music.mp3" type="audio/mpeg" />
+
+        Ձեր բրաուզերը չի աջակցում audio թեգը։
+      </audio>
+    </section>
+
+    <!-- Կարծիք -->
+    <section id="contact">
+      <h2>💌 Գրիր մեզ</h2>
+
+      <p>Ասա մեզ՝ ո՞ր զբաղմունքն ես ամենաշատը սիրում։</p>
+
+      <form>
+        <label for="name">Անուն</label>
+        <br />
+
+        <input type="text" id="name" placeholder="Գրիր քո անունը" required />
+
+        <br /><br />
+
+        <label for="email">Email</label>
+        <br />
+
+        <input
+          type="email"
+          id="email"
+          placeholder="example@gmail.com"
+          required
+        />
+
+        <br /><br />
+
+        <label for="age">Տարիք</label>
+        <br />
+
+        <input type="number" id="age" min="7" max="15" />
+
+        <br /><br />
+
+        <label for="activity"> Քո սիրելի զբաղմունքը </label>
+
+        <br />
+
+        <select id="activity">
+          <option>Նկարել</option>
+          <option>Սպորտ</option>
+          <option>Խաղալ</option>
+          <option>Կարդալ</option>
+          <option>Ծրագրավորել</option>
+        </select>
+
+        <br /><br />
+
+        <label for="message"> Քո կարծիքը </label>
+
+        <br />
+
+        <textarea
+          id="message"
+          rows="5"
+          cols="30"
+          placeholder="Գրիր քո կարծիքը..."
+        ></textarea>
+
+        <br /><br />
+
+        <button type="submit">Ուղարկել</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <hr />
+
+      <p>© 2026 Kids World</p>
+
+      <a href="#top">⬆ Վերադառնալ վերև</a>
+    </footer>
+  </body>
+</html>
